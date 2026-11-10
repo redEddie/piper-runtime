@@ -1,0 +1,8 @@
+{
+  "component": "runtime",
+  "source_path_local_only": "/home/pi_lab/Documents/Codex/2026-10-23/new-chat/work/show100-ternary-dls-qp",
+  "source_git_commit": "229ea13cb882ed314e7f79085f16359a632687e2",
+  "live_sources_modified": false,
+  "extraction": "tracked snapshot for learning; selected modules for Studio/runtime",
+  "runtime_version": "0.4.0"
+}

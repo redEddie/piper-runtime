@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-05",
+  "repositories_remain_private": true,
+  "project_license": {
+    "recommended": "Apache-2.0",
+    "applied": false,
+    "decision": "owner selection pending"
+  },
+  "environment": {
+    "platform": "Linux aarch64",
+    "python": "3.12.16",
+    "clean_venv": true,
+    "system_site_packages": false,
+    "editable_installs": false,
+    "cpu_constraints": "requirements/cpu-verified-20261105.txt (Studio)"
+  },
+  "pip_check": "passed",
+  "runtime_content_sha256": "e197cf618137f8327312ae06b303f288e5c7e0617c4a121d6cdf7022edcdf743",
+  "runtime_consumer_lock": "passed; controller code/content unchanged",
+  "tests": {
+    "runtime_passed": 12,
+    "studio_passed": 164,
+    "studio_subtests_passed": 20,
+    "studio_skipped": 1,
+    "skip_reason": "Optional Open3D TSDF test; geometry extra not installed in the CPU baseline"
+  },
+  "wheel_contents": {
+    "web_assets": true,
+    "kaolin_helper_and_license": true,
+    "upstream_helper_bytes_unchanged": true,
+    "explicit_third_party_license_metadata": true
+  },
+  "smoke": {
+    "status": "passed",
+    "synthetic_example": {
+      "recording_id": "20990101-000000-000001",
+      "policy_id": "af8790661a3618bbd68b",
+      "synthetic": true,
+      "hardware_commands_sent": false
+    },
+    "pages_checked": [
+      "/",
+      "/stages",
+      "/objects",
+      "/policies"
+    ],
+    "offline_web_stopped": true,
+    "camera_model_robot_workers_started": false,
+    "hardware_commands_sent": false
+  },
+  "source_audit": {
+    "date": "2026-11-05",
+    "git": [
+      {
+        "repo": "showonce-studio",
+        "history_blobs_scanned": 773,
+        "history_bytes_scanned": 13690405,
+        "matches": [],
+        "method": "Known HF/GitHub/AWS access-key patterns and private-key headers on all locally fetched reachable Git blobs. Heuristic scan; not a guarantee for arbitrary credentials or un-fetched server refs."
+      },
+      {
+        "repo": "piper-runtime",
+        "history_blobs_scanned": 61,
+        "history_bytes_scanned": 443836,
+        "matches": [],
+        "method": "Known HF/GitHub/AWS access-key patterns and private-key headers on all locally fetched reachable Git blobs. Heuristic scan; not a guarantee for arbitrary credentials or un-fetched server refs."
+      }
+    ],
+    "existing_private_release_archive": {
+      "files_scanned": 59,
+      "matches": [],
+      "scope": "Existing private attachment only. No upload or visibility change."
+    },
+    "video_publication": "Contains real hardware scene; currently private. Final public media scope is owner decision.",
+    "credentials_printed": false
+  },
+  "scope": {
+    "gpu_workers_fresh_install_validated": false,
+    "x86_fresh_install_validated": false,
+    "camera_opened": false,
+    "sdk_can_commands_sent": false,
+    "existing_services_started": false,
+    "license_or_repo_visibility_changed": false,
+    "sam_worker_fresh_install_validated": true
+  },
+  "remaining": [
+    "Owner license selection and contributed-code publication rights",
+    "Calibration generation/Home/scripted-runner integration and team publication scope",
+    "real2sim author license clarification",
+    "FoundationPose research/evaluation non-commercial scope",
+    "Public attachment/video scope decision"
+  ],
+  "sam_worker_followup": {
+    "status": "passed",
+    "source_modified": false,
+    "numpy_conflict_resolution": "separate NumPy 1.26.4 SAM / NumPy 2.5.4 Studio-control environments",
+    "pip_check": "passed in both",
+    "validation": "https://github.com/redEddie/showonce-studio/blob/main/docs/sam-worker-validation.json",
+    "http_file_ipc": "passed",
+    "runtime_tests_per_numpy_environment": 12,
+    "source_rgb_frames_per_object": 4,
+    "scope": "Thor/aarch64/Python3.12, recorded RGB + existing HTTP/file protocol, not full live camera/FoundationPose deployment"
+  },
+  "live_perception_migration": {
+    "external_show33_source_required": false,
+    "legacy_inspector_required": false,
+    "recorded_cases_compared": 42,
+    "max_pose_matrix_difference": 0.0,
+    "real_camera_source_denial_test": "passed",
+    "live_complete_object_observation": false,
+    "validation": "https://github.com/redEddie/showonce-studio/blob/main/docs/live-perception-validation.json"
+  },
+  "later_integration_status": "Studio now owns live perception, camera calibration and posture A. Scripted grasp is a standalone optional tutorial. See Studio docs/live-perception-validation.json, calibration-validation.json and posture-validation.json; historical outcomes above are preserved."
+}

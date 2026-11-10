@@ -1,0 +1,46 @@
+{
+  "sha256": "822185d36885a763547e7f8354df9820ce6d3e1132258ab90ba8fc89f23163cd",
+  "counts": {
+    "0": [
+      6009,
+      309
+    ],
+    "1": [
+      4435,
+      261
+    ],
+    "2": [
+      36269,
+      739
+    ],
+    "3": [
+      18334,
+      319
+    ],
+    "4": [
+      8752,
+      754
+    ],
+    "5": [
+      8296,
+      674
+    ],
+    "6": [
+      6637,
+      139
+    ],
+    "7": [
+      913,
+      118
+    ],
+    "8": [
+      913,
+      118
+    ]
+  },
+  "sources": {
+    "/home/pi_lab/pac2026/outputs/hardware_audit/posture_review_20261008/manufacturer_piper.urdf": "25b1c32ec37373b508ed322d32de5d01a58da14b0ad487a132ff8702f3bab8f7",
+    "/home/pi_lab/songjisu/show33/assets/robot/agilex_piper/piper.xml": "a7b5b5d3b2a68d5c553b2ee9665d54a422bd8bf1fa6f3251bc11834993d37098"
+  },
+  "method": "all convex hull vertices; physical-model URDF arms and existing MJCF fingers"
+}

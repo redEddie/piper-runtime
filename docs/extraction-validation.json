@@ -1,0 +1,15 @@
+{
+  "source": "isolated CPU and browser checks",
+  "studio_unit_tests": 48,
+  "learning_formula_layout_controller_tests": 38,
+  "shared_runtime_tests": 4,
+  "legacy_policy_qp_fake_feedback_cycles": 400,
+  "max_original_vs_packaged_difference": 0.0,
+  "clean_wheel_environment": true,
+  "synthetic_example_browser_pages": 4,
+  "hardware_commands_sent": false,
+  "original_services_restarted": false,
+  "training_started": false,
+  "new_mjx_task_or_gpu_simulation_validated": false,
+  "optional_gpu_workers_reinstalled": false
+}

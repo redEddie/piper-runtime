@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-09",
+  "status": "offline_compatibility_passed",
+  "upstream_commit": "939bdb623a6bd641152388429396b8ad74e1e70a",
+  "policy_id": "1a361f3b4126da160d07",
+  "checkpoint_sha256": "84e064bf50d34c30b346f08c109a387b0d4b1ca58fdeb30b93db638380d44306",
+  "weights_sha256": "d70b4081d5bf2599ec97b2c329127fff2236fdfcf75c959294b643abd9cd345c",
+  "runtime_implementation_changed": false,
+  "runtime_sha256": "e197cf618137f8327312ae06b303f288e5c7e0617c4a121d6cdf7022edcdf743",
+  "tests": {
+    "runtime": {
+      "tests": 16,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "studio": {
+      "tests": 220,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "pytest_items_passed": 200,
+      "subtests_passed": 20
+    },
+    "learning_core": {
+      "tests": 107,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "browser": {
+    "status": "passed",
+    "default_final24": true,
+    "explicit_parent_selection_preserved": true,
+    "final_switch_button": true,
+    "simulation_and_hardware_badges_separate": true,
+    "displayed_cumulative_steps": 201326592,
+    "dropdown_groups": [
+      "최종 배포 기준",
+      "이전 학습 모델",
+      "기존 정책 · 연결 검사"
+    ],
+    "mock_success": true,
+    "validation_badges_passed": true,
+    "hardware_commands_sent": false,
+    "javascript_errors": []
+  },
+  "clean_wheel": {
+    "status": "passed",
+    "policy_id": "1a361f3b4126da160d07",
+    "runtime_sha256": "e197cf618137f8327312ae06b303f288e5c7e0617c4a121d6cdf7022edcdf743",
+    "synthetic": 7.748603820800781e-07,
+    "recorded": 1.1920928955078125e-06,
+    "robot_modules_loaded": false,
+    "training_modules_loaded": false
+  },
+  "source_alignment": {
+    "upstream_commit": "939bdb623a6bd641152388429396b8ad74e1e70a",
+    "identical_source_and_asset_files": 162,
+    "import_only_differences": [
+      "control_lab/controllers.py",
+      "control_lab/hierarchy.py",
+      "control_lab/hierarchy_env.py",
+      "control_lab/smooth_plan.py",
+      "control_lab/tracking_qp.py"
+    ],
+    "shared_math_verified": [
+      "controllers.py",
+      "hierarchy.py",
+      "smooth_plan.py",
+      "tracking_qp.py",
+      "jax_kinematics.py"
+    ],
+    "native_geometry_guard": {
+      "expected": "c9bfb04f742a5dd33664fb2745f4730ba4d9becdfd9291c61ab50467b1b67e05",
+      "upstream_thor": "440b5ee40acccb45ab800fe9630235ef864b22791dca45e3131907176501c629",
+      "split_thor": "440b5ee40acccb45ab800fe9630235ef864b22791dca45e3131907176501c629",
+      "guard_preserved": true,
+      "root_cause_not_yet_isolated": true,
+      "scope": "both unmodified upstream and split version reject bank geometry on this Thor; not a completed native physics validation"
+    }
+  },
+  "archive_and_member_hashes_verified": true,
+  "previous_registered_policy_files_unchanged": 23,
+  "hardware_commands_sent": false,
+  "new_training": false,
+  "model_24u_hardware_success_verified": false,
+  "physical_completion_detection_implemented": false,
+  "known_limits": [
+    "Physical stage4 completion is not automatically verified; duration/manual interrupt follows existing checked-stop behavior",
+    "Unmodified upstream and split Learning both reject compiled geometry against bank hash on this Thor; full bank-based native physics validation is not passed",
+    "Learning full-suite probe stopped after112passed/5skipped/7bank-fixture errors; do not confuse the107passing core tests with the full suite"
+  ],
+  "learning_export": {
+    "status": "passed",
+    "weights_byte_identical_to_official_release": true,
+    "model_xml_and_training_config_packaged": true,
+    "cumulative_training_steps": 201326592,
+    "checkpoint_step": 33554432,
+    "normalizer_packaged_with_weights": true
+  }
+}

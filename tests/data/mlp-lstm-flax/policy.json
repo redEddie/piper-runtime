@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "actor": "mlp_lstm",
+  "observation_size": 4,
+  "action_size": 1,
+  "recurrent_width": 2,
+  "encoder_sizes": [
+    3,
+    2
+  ],
+  "head_sizes": [],
+  "weights_sha256": "3f473f30356448ccaff54f0fe9ab4c5afe95dff4313495fc384d1d6d812e7aed",
+  "fixture": "Synthetic tiny actor from original SHOW-108 Flax class; not trained policy weights"
+}
